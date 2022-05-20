@@ -37,3 +37,54 @@ body {
     padding: 20px 10px;
 }
 
+
+.navbar-logo {
+    height: 35px;
+}
+
+.menu {
+    display: none;
+}
+
+.menu-line {
+    width: 20px;
+    height: 3px;
+    background-color: #174687;
+    margin-bottom: 4px;
+}
+
+@media all and (max-width: 480px) {
+    .navbar {
+        flex-direction: column;
+        position: relative;
+        height: auto;
+    }
+    .navbar .navbar-logo {
+        width: 100%;
+        
+    }
+    .navbar-logo {
+        margin-top: 10px;
+    }
+    .menu {
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 15px;
+    }
+    .nav-list {
+        list-style-type: none;
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+        display: none;
+    }
+    .nav-list .list-item {
+        display: block;
+        border-top: 1px solid #174687;
+    }
+
+    .active {
+        display: block;
+    }
+}
