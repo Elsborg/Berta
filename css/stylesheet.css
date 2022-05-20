@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #FFF7D1;
+    color: #174687;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.nav-list {
+    list-style-type: none;
+
+}
+
+.nav-list .list-item {
+    display: inline-block;
+}
