@@ -3,6 +3,9 @@
     padding: 0;
     margin: 0;
 }
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 
 .navbar {
     background-color: #FFF7D1;
