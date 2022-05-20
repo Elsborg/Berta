@@ -9,14 +9,20 @@
     color: #174687;
     display: flex;
     justify-content: space-around;
+    
 }
 
 
 .nav-list {
     list-style-type: none;
+    
+}
 
+.nav-list a {
+    text-decoration: none;
 }
 
 .nav-list .list-item {
     display: inline-block;
 }
+
