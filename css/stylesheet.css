@@ -53,6 +53,13 @@ body {
     margin-bottom: 4px;
 }
 
+.bigpicture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 @media all and (max-width: 480px) {
     .navbar {
         flex-direction: column;
