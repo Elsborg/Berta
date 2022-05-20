@@ -31,3 +31,9 @@ body {
     padding: 20px 10px;
 }
 
+.bigpicture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
