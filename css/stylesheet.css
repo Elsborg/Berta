@@ -66,7 +66,7 @@ body {
 /*Footer styling*/
 footer {
     background-color: #174687;
-    
+    position: relative;
 }
 .column-footer {
     float: left;
@@ -87,12 +87,10 @@ footer {
 
   .footer-text {
       color: white;
-      margin-top: 20px;
+      margin-top: 15px;
+      
   }
 
-  .footer-text1 {
-      color: white;
-  }
 
   .center-footer {
       text-align: center;
@@ -101,8 +99,27 @@ footer {
   .left-align {
     display: inline-block;
     text-align: left;
+    
   }
 
+  .social-icons {
+      position: absolute;
+      bottom: 0;
+     
+  }
+
+  .flex-contact {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .icon-text {
+      display: flex;
+      flex-direction: row;
+      margin-top: 15px;
+  }
+
+  
 
 /*Her bliver der lavet media queries*/
 @media all and (max-width: 480px) {
@@ -141,11 +158,24 @@ footer {
         display: block;
     }
 
-  
 }
 /*Media queries for footer*/
 @media screen and (max-width: 600px) {
     .column-footer {
       width: 100%;
     }
+
+
+    .left-align {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .flex-contact {
+        justify-content: center;
+        align-items: center;
+    }
+
   }
