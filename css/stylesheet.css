@@ -8,6 +8,8 @@ body {
     font-weight: 700;
 }
 
+/*Her bliver navbaren stylet*/
+
 .navbar {
     background-color: #FFF7D1;
     color: #174687;
@@ -53,6 +55,7 @@ body {
     margin-bottom: 4px;
 }
 
+/*Big picture på forsiden*/
 .bigpicture {
     display: block;
     margin-left: auto;
@@ -60,7 +63,9 @@ body {
     width: 50%;
 }
 
+/*Her bliver der lavet media queries*/
 @media all and (max-width: 480px) {
+    /*Navbar regler for mobil*/
     .navbar {
         flex-direction: column;
         position: relative;
