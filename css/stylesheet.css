@@ -63,6 +63,47 @@ body {
     width: 50%;
 }
 
+/*Footer styling*/
+footer {
+    background-color: #174687;
+    
+}
+.column-footer {
+    float: left;
+    width: 33.33%;
+    color: #FFF7D1;
+  }
+
+.column-footer h2 {
+    margin-top: 20px;
+}
+  
+  /* Fjerne floats efter det her */
+  .row-footer:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .footer-text {
+      color: white;
+      margin-top: 20px;
+  }
+
+  .footer-text1 {
+      color: white;
+  }
+
+  .center-footer {
+      text-align: center;
+  }
+
+  .left-align {
+    display: inline-block;
+    text-align: left;
+  }
+
+
 /*Her bliver der lavet media queries*/
 @media all and (max-width: 480px) {
     /*Navbar regler for mobil*/
@@ -99,4 +140,12 @@ body {
     .active {
         display: block;
     }
+
+  
 }
+/*Media queries for footer*/
+@media screen and (max-width: 600px) {
+    .column-footer {
+      width: 100%;
+    }
+  }
