@@ -60,7 +60,51 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 100%;
+}
+
+/*Forside styling*/
+.dummy {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.button-front {
+    background-color: #174687;
+        border: none;
+        color: white;
+        padding: 15px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 5px;
+}
+
+.container-front {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.container-front p, h2 {
+    margin-top: 20px;
+}
+
+.container-front1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.container-front1 p, h2 {
+    margin-top: 20px;
 }
 
 /*Footer styling*/
@@ -179,3 +223,64 @@ footer {
     }
 
   }
+
+@media screen and (min-width: 600px)  {
+    .dummy {
+        width: 70%;
+        margin-top: 20px;
+        height: auto;
+    }
+
+    .forside1 {
+      background-color: #F2F2F2;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+
+
+
+    .bigpicture {
+        height: 500px;
+    }
+    
+    .button-front {
+        background-color: #174687;
+            border: none;
+            color: white;
+            padding: 15px 30px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+    }
+    
+    .container-front {
+        display: flex;
+        flex-direction: row;
+        
+        
+    }
+
+    .container-front1 {
+        display: flex;
+        flex-direction: row-reverse;
+        
+    }
+
+    .flex-column {
+        width: 40%;
+    }
+
+    .flex-row {
+        width: 40%;
+        vertical-align: middle;
+    }
+
+    .container-front p, h2 {
+        margin-top: 20px;
+    }
+    
+}
