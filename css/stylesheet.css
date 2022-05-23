@@ -240,6 +240,12 @@ footer {
         align-items: center;
     }
 
+    .social-icons {
+        display: block;
+        position: static;
+        margin-top: 20px;
+    }
+
   }
 
 @media screen and (min-width: 600px)  {
