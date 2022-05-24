@@ -289,7 +289,6 @@ footer {
     #reverse {
         display: flex;
         flex-direction: row-reverse;
-        
     }
 
     .flex-column {
@@ -299,8 +298,9 @@ footer {
 
     .flex-row {
         width: 40%;
-        vertical-align: middle;
     }
+
+  
 
     .container-front p, h2 {
         margin-top: 20px;
