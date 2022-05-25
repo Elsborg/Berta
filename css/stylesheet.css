@@ -63,6 +63,24 @@ body {
     width: 100%;
 }
 
+/* Menu oversigt */
+
+.bertamenu {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.menuoverskrift {
+    color: #174687;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
 /*Forside styling*/
 .dummy {
     width: 100%;
