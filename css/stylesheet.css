@@ -116,7 +116,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #E4D48D;
+    color: #174687;
 }
 
 .container-front {
@@ -142,6 +142,48 @@ body {
 .container-front1 p, h2 {
     margin-top: 20px;
 }
+
+
+/*Om os siden styling*/
+.about-container {
+    display: inline-block;
+    text-align: center;
+}
+
+.about-container img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.about-container p {
+    margin-top: 40px;
+    text-align: left;
+    width: 80%;
+    line-height: 1.7;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-container h2 {
+    color: #174687;
+}
+
+.history {
+    margin-bottom: 60px;
+}
+
+.values {
+    margin-bottom: 60px;
+}
+
+.about-line {
+    border-top: 2px solid #e0d186;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 
 /*Footer styling*/
 footer {
@@ -311,7 +353,7 @@ footer {
 
     .flex-column {
         width: 40%;
-        color: #E4D48D;
+        color: #174687;
     }
 
     .flex-row {
@@ -326,6 +368,47 @@ footer {
 
     .button-front {
         margin-top: 20px;
+    }
+    
+}
+
+@media screen and (min-width: 600px) {
+    .about-container {
+        display: inline-block;
+        text-align: center;
+    }
+    
+    .about-container img {
+        width: 700px;
+        margin-top: 20px;
+    }
+    
+    .about-container p {
+        margin-top: 40px;
+        text-align: left;
+        width: 80%;
+        line-height: 1.7;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .about-container h2 {
+        color: #174687;
+    }
+    
+    .history {
+        margin-bottom: 60px;
+    }
+    
+    .values {
+        margin-bottom: 60px;
+    }
+    
+    .about-line {
+        border-top: 2px solid #e0d186;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
     }
     
 }
