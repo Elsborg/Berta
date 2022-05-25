@@ -199,6 +199,25 @@ body {
     margin-right: auto;
 }
 
+/*
+Menu styling
+*/
+.menu-container {
+    text-align: center;
+}
+
+.menu-container p {
+    margin-top: 40px;
+    text-align: center;
+    width: 80%;
+    line-height: 1.7;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-container h2 {
+    color: #174687;
+}
 
 
 /*Footer styling*/
