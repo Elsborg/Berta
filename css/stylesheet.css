@@ -180,6 +180,20 @@ body {
     margin-right: auto;
 }
 
+
+.aboutText {
+    opacity: 0;
+    position: relative;
+    bottom: -40px;
+    transition: all 0.8s ease-out;
+}
+
+.show {
+    opacity: 1;
+    bottom: 0;
+}
+
+
 .about-container h2 {
     color: #174687;
 }
