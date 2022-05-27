@@ -25,3 +25,5 @@ function setup() {
     const para = document.querySelectorAll('.aboutText');
     para.forEach(aboutText => observer.observe(aboutText)); //Her bliver observeren sat til at observe på alle p tagsne 
 }
+
+

@@ -1,23 +1,26 @@
-const targets = document.querySelectorAll('.about-img');
+const targets = document.querySelectorAll('.about-img'); //Gemmer billede element i en variable
 
+
+//Opretter en lazyload funktion
 const lazyLoad = target => {
   const io = new IntersectionObserver((entries, observer) => {
+    //Her bliver der loopet over entries, og der bliver set om de intersecter med viewporten
     console.log(entries)
     entries.forEach(entry => {
 
-      if (entry.isIntersecting) {
-        const img = entry.target;
+      if (entry.isIntersecting) { //true eller false om den intetsecter
+        const img = entry.target; //Billedet som intersecter
         const src = img.getAttribute('lazyload');
 
-        img.setAttribute('src', src);
-        img.classList.add('fade');
+        img.setAttribute('src', src); //Sætter src attribut på billedet
+        img.classList.add('fade'); //Tilføjer klassen fade til billedet
 
-        observer.disconnect();
+        observer.disconnect(); //Billedet er loadet og vi disconnecter observeren 
       }
     });
   });
 
-  io.observe(target)
+  io.observe(target) //Kalder observe på target element
 };
 
-targets.forEach(lazyLoad);
+targets.forEach(lazyLoad); //Looper over alle elementer i DOM og tilføjer observeren til dem
