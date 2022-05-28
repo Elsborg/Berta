@@ -1,4 +1,5 @@
 const targets = document.querySelectorAll('.about-img'); //Gemmer billede element i en variable
+const targets2 = document.querySelectorAll('.front-image'); //Gemmer billede element i en variable
 
 
 //Opretter en lazyload funktion
@@ -24,3 +25,4 @@ const lazyLoad = target => {
 };
 
 targets.forEach(lazyLoad); //Looper over alle elementer i DOM og tilføjer observeren til dem
+targets2.forEach(lazyLoad); //Looper over alle elementer i DOM og tilføjer observeren til dem

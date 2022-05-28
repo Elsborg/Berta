@@ -157,11 +157,19 @@ body {
 }
 */
 
-.about-img {
+.about-img, .front-image {
     width: 100%;
     transform: translateX(50%);
     opacity: 0;
     transition: all 500ms;
+}
+
+.front-image {
+    width: 100%;
+    transform: translateX(50%);
+    opacity: 0;
+    transition: all 500ms;
+    margin: 20px;
 }
 
 .fade {
@@ -361,7 +369,7 @@ footer {
   }
 
 @media screen and (min-width: 600px)  {
-    .dummy {
+    .front-image {
         width: 70%;
         margin-top: 20px;
         height: auto;
@@ -372,11 +380,6 @@ footer {
       background-color: #F2F2F2;
     }
 
-
-
-    .bigpicture {
-        height: 768px;
-    }
     
     .button-front {
         background-color: #174687;
