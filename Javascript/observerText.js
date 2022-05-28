@@ -24,6 +24,9 @@ function setup() {
     //Her bliver der lavet en variable para, som henter p tagget med klassen .aboutText
     const para = document.querySelectorAll('.aboutText');
     para.forEach(aboutText => observer.observe(aboutText)); //Her bliver observeren sat til at observe på alle p tagsne 
+
+    const p = document.querySelectorAll('.konceptText');
+    p.forEach(konceptText => observer.observe(konceptText));
 }
 
 
