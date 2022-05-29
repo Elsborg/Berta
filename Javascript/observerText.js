@@ -27,6 +27,9 @@ function setup() {
 
     const p = document.querySelectorAll('.konceptText');
     p.forEach(konceptText => observer.observe(konceptText));
+
+    const pskrift = document.querySelectorAll('.indexText');
+    pskrift.forEach(indexText => observer.observe(indexText));
 }
 
 
