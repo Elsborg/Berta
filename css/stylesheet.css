@@ -501,3 +501,13 @@ footer {
     }
     
 }
+
+
+@media screen and (max-width: 375px){
+    .navbar-logo {
+        height: 25px;
+        width: auto;
+    }
+
+}
+
